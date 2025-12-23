@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "Cecilia Studio"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: 你 Cecilia Studio 到现在甚至连描述都没有
   actions:
     - theme: brand
       text: Markdown Examples
