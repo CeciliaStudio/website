@@ -8,6 +8,7 @@ export default defineConfig({
         ["link", { rel: "icon", href: "/img/cecilia-studio.png" }]
     ],
     themeConfig: {
+        outline: false,
         logo: "/img/cecilia-studio.png",
         nav: [
             { text: "首页", link: "/" },
