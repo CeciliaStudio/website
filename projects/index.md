@@ -5,6 +5,12 @@ projects:
     icon: /img/PCL.Mac.png
     summary: 一个 PCL 非官方衍生版，使用 SwiftUI 框架重写，专为 macOS 平台打造。
     url: https://github.com/CeciliaStudio/PCL.Mac
+
+  - name: PCL.Mac.Refactor
+    slug: PCL.Mac.Refactor
+    icon: /img/PCL.Mac.png
+    summary: PCL.Mac 的重构版，完全重写了 PCL.Mac。
+    url: https://github.com/CeciliaStudio/PCL.Mac.Refactor
 ---
 
 # 项目列表
