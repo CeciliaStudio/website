@@ -6,15 +6,11 @@
         <main>
             <Content />
         </main>
-        
-        <footer>
-            <p>© 2025 Cecilia Studio. All rights reserved.</p>
-        </footer>
     </div>
 </template>
 
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from "vitepress"
 const { frontmatter } = useData()
 </script>
 

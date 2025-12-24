@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: article-page
 title: PCL.Mac.Refactor 0.0.1 已发布
 ---
 

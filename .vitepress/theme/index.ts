@@ -6,9 +6,13 @@ import "./custom.css"
 
 import Article from "./layouts/Article.vue"
 
+import Project from "./components/Project.vue"
+
 export default {
     ...DefaultTheme,
     enhanceApp({ app }: { app: App }) {
-        app.component("article", Article)
+        app.component("article-page", Article)
+
+        app.component("Project", Project)
     }
 } satisfies Theme
