@@ -6,13 +6,6 @@ hero:
   name: "Cecilia Studio"
   tagline: 你 Cecilia Studio 到现在甚至连描述都没有
   image: /img/cecilia-studio.png
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Feature A
