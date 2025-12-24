@@ -3,3 +3,7 @@
     --vp-c-brand-2: hsl(158, 50%, 30%);
     --vp-c-brand-3: hsl(158, 50%, 44%);
 }
+
+.VPImage {
+    image-rendering: pixelated;
+}

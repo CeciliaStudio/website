@@ -5,6 +5,7 @@ layout: home
 hero:
   name: "Cecilia Studio"
   tagline: 你 Cecilia Studio 到现在甚至连描述都没有
+  image: /img/cecilia-studio.png
   actions:
     - theme: brand
       text: Markdown Examples
@@ -21,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

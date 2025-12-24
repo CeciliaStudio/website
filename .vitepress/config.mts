@@ -1,19 +1,21 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Cecilia Studio",
-  description: "A VitePress Site",
-  themeConfig: {
-    logo: "/images/cecilia-studio.png",
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+    title: "Cecilia Studio",
+    description: "A VitePress Site",
+    head: [
+        ["link", { rel: "icon", href: "/img/cecilia-studio.png" }]
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    themeConfig: {
+        logo: "/img/cecilia-studio.png",
+        nav: [
+            { text: "首页", link: "/" },
+            { text: "项目", link: "/projects" },
+            { text: "文章", link: "/articles" }
+        ],
+        socialLinks: [
+            { icon: "github", link: "https://github.com/CeciliaStudio" }
+        ]
+    }
 })
