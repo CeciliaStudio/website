@@ -13,7 +13,8 @@ export default defineConfig({
         nav: [
             { text: "首页", link: "/" },
             { text: "项目", link: "/projects" },
-            { text: "文章", link: "/articles" }
+            { text: "文章", link: "/articles" },
+            { text: "赞助者", link: "/sponsors"}
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/CeciliaStudio" }
