@@ -19,7 +19,7 @@ onMounted(async () => {
         <h1>文章</h1>
         <div class="articles-container" v-if="articles.length">
             <div class="article-container" v-for="article in articles">
-                <span class="article-title">{{ article.title }}</span>
+                <a :href="'/articles/' + article.slug" class="article-title">{{ article.title }}</a>
                 <div class="bottom-tags">
                     <a :href="article.author.url" class="author">{{ article.author.name }}</a>
                     <span>{{ formatDate(article.time) }}</span>
@@ -55,6 +55,7 @@ onMounted(async () => {
 
 .article-title {
     font-weight: bold;
+    color: var(--vp-c-text-1);
 }
 
 .bottom-tags {
@@ -62,6 +63,10 @@ onMounted(async () => {
     grid-template-columns: 120px 80px auto;
     font-size: 13px;
     font-weight: 500;
-    color: #777;
+    color: var(--vp-c-text-3);
+}
+
+a {
+    text-decoration: none;
 }
 </style>
