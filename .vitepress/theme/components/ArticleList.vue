@@ -39,6 +39,7 @@ onMounted(async () => {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .article-container {
