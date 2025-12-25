@@ -22,7 +22,7 @@ onMounted(async () => {
             <div class="bottom-tags">
                 <a :href="article.author.url" class="author">{{ article.author.name }}</a>
                 <span>{{ formatDate(article.time) }}</span>
-                <span>{{ origin + "/articles/" + article.slug }}</span>
+                <span class="ellipsis">{{ origin + "/articles/" + article.slug }}</span>
             </div>
         </div>
     </div>

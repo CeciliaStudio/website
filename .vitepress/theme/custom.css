@@ -7,3 +7,9 @@
 .VPImage {
     image-rendering: pixelated;
 }
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
