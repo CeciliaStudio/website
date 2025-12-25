@@ -1,23 +1,19 @@
-<script setup>
-import { ref, onMounted } from "vue"
+---
+articles:
+---
 
+<script setup>
 function formatDate(iso8601String) {
     return new Date(iso8601String).toLocaleDateString()
 }
 
 const origin = window.location.origin
-const articles = ref([])
-
-onMounted(async () => {
-    const response = await fetch("/articles.json")
-    articles.value = await response.json()
-})
 </script>
 
 <div class="article-list vp-doc">
     <h1>文章</h1>
-    <div class="articles-container" v-if="articles.length">
-        <div class="article-container" v-for="article in articles">
+    <div class="articles-container">
+        <div class="article-container" v-for="article in $frontmatter.articles">
             <a :href="'/articles/' + article.slug" class="article-title">{{ article.title }}</a>
             <div class="bottom-tags">
                 <a :href="article.author.url" class="author">{{ article.author.name }}</a>
