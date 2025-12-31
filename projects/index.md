@@ -8,7 +8,7 @@ projects:
 
   - name: PCL.Mac.Refactor
     slug: PCL.Mac.Refactor
-    icon: /img/PCL.Mac.png
+    icon: /img/PCL.Mac.Refactor.png
     summary: PCL.Mac 的重构版，完全重写了 PCL.Mac。
     url: https://github.com/CeciliaStudio/PCL.Mac.Refactor
 ---
