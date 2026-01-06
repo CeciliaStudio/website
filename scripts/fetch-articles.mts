@@ -1,3 +1,4 @@
+// deprecated
 import { readFileSync, writeFileSync } from "fs"
 
 const response: Response = await fetch("https://api.ceciliastudio.top/articles")

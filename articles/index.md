@@ -1,5 +1,17 @@
 ---
 articles:
+  - title: PCL.Mac.Refactor v0.0.1 已发布
+    slug: pcl-mac-refactor-v0.0.1-released
+    author:
+      name: 风花AnemoFlower
+      url: https://github.com/AnemoFlower
+    time: 2025-12-25T13:38:02+08:00
+  - title: PCL.Mac.Refactor v0.1.0 已发布
+    slug: pcl-mac-refactor-v0.1.0-released
+    author:
+      name: 风花AnemoFlower
+      url: https://github.com/AnemoFlower
+    time: 2025-12-31T18:36:15+08:00
 ---
 
 <script setup>
