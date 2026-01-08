@@ -41,7 +41,6 @@ PCL.Mac 是 [Plain Craft Launcher](https://github.com/Hex-Dragon/PCL2) 的非官
 > 2. 进入「隐私与安全性」。
 > 3. 滑到底部，点击「仍然打开」。
 > 
-> 签名并公证后的版本大概会在 2026 年 3 月发布，到时候就可以开袋即食啦～
 
 <style>
 .head-container {
