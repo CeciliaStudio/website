@@ -17,7 +17,8 @@ export default defineConfig({
             { text: "赞助者", link: "/sponsors"}
         ],
         socialLinks: [
-            { icon: "github", link: "https://github.com/CeciliaStudio" }
+            { icon: "github", link: "https://github.com/CeciliaStudio" },
+            { icon: "bilibili", link: "https://space.bilibili.com/3690981213866829" }
         ]
     }
 })
