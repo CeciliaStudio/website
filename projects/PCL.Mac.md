@@ -33,7 +33,7 @@ PCL.Mac 是 [Plain Craft Launcher](https://github.com/Hex-Dragon/PCL2) 的非官
 
 ## 下载
 
-最新版本：[Beta 0.1.1](https://gitee.com/yizhimcqiu/PCL.Mac.Releases/releases/download/beta-0.1.0/PCL.Mac-beta-0.1.0.dmg)（Universal）
+最新版本：[Beta 0.1.1](https://gitee.com/yizhimcqiu/PCL.Mac.Releases/releases/download/beta-0.1.1/PCL.Mac-beta-0.1.1.dmg)（Universal）
 
 > [!WARNING]
 > 由于 App 未签名，直接打开可能会出现“已损坏”等提示。请：
