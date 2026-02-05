@@ -19,6 +19,8 @@ PCL.Mac.Refactor 是 [PCL.Mac](/projects/PCL.Mac) 的重构版，重构了 PCL.M
 PCL.Mac 是 [Plain Craft Launcher](https://github.com/Hex-Dragon/PCL2) 的非官方衍生版，使用 SwiftUI 框架完全重构了 PCL 以支持 macOS。<br>
 系统版本要求：`macOS 12.0` 及以上。
 
+帮助文档：[PCL.Mac 帮助文档 与 FAQ](/helps/PCL.Mac)
+
 ## 下载
 你可以在 [PCL.Mac.Refactor 的 Releases](https://github.com/CeciliaStudio/PCL.Mac.Refactor/releases) 中下载 PCL.Mac.Refactor 的测试版（Universal）。<br>
 正式可用的版本预计会在 2026 年 3 月发布！
