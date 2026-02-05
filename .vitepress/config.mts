@@ -3,12 +3,15 @@ import { defineConfig } from "vitepress"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "Cecilia Studio",
-    description: "A VitePress Site",
+    description: "Cecilia Studio 官方网站",
     head: [
         ["link", { rel: "icon", href: "/img/cecilia-studio.png" }]
     ],
     themeConfig: {
-        outline: false,
+        outline: {
+            level: 10,
+            label: "导航"
+        },
         logo: "/img/cecilia-studio.png",
         nav: [
             { text: "首页", link: "/" },
